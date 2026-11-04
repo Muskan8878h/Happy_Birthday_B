@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Birthday My Love! ❤️🎂</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Poppins:wght@300;400;600;700&family=Sacramento&display=swap" rel="stylesheet">
+  <!-- Canvas Confetti CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+  <!-- Floating background hearts container -->
+  <div class="hearts-background" id="heartsBg"></div>
+  <!-- Music Toggle (Optional audio) -->
+  <div class="music-toggle" id="musicToggle" title="Play romantic music">
+    <span id="musicIcon">🎵</span>
+    <span class="music-text">Music</span>
+    <audio id="bgMusic" loop src="https://cdn.pixabay.com/download/audio/2022/05/27/audio_1808fbf07a.mp3?filename=romantic-piano-112199.mp3"></audio>
+  </div>
+  <main class="container">
+    <!-- Header / Hero Section -->
+    <header class="hero-section">
+      <div class="badge">🎉 Today is All About You! 🎂</div>
+      <h1 class="title">Happy Birthday, <span class="highlight">My Special One</span>! ❤️</h1>
+      <p class="subtitle">To the guy who makes my world brighter every single day. Wishing you endless happiness, love, and sweet moments! ✨</p>
+      
+      <div class="cake-container">
+        <div class="cake-emoji">🎂</div>
+        <p class="cake-instruction">Blow out the candle & make a wish! 🕯️</p>
+      </div>
+    </header>
+    <!-- The Playful "Do You Love Me?" Question Section -->
+    <section class="question-card" id="loveSection">
+      <div class="question-header">
+        <span class="cute-tag">Quick Question 🥺👉👈</span>
+        <h2 class="question-text">Do you love me?</h2>
+        <p class="question-subtext">Be honest... there is only one right answer! 😉</p>
+      </div>
+      <div class="buttons-playground" id="buttonsArea">
+        <button id="btnYes" class="btn btn-yes">YES! ❤️</button>
+        <button id="btnNo" class="btn btn-no">NO 😜</button>
+      </div>
+      <!-- Secret message shown only when YES is clicked -->
+      <div id="yesMessage" class="yes-response-box hidden">
+        <div class="sparkles">✨💖🥰💖✨</div>
+        <h3>Yaaay! I knew it!</h3>
+        <p>You love me so much! Now scroll down, I have prepared special letters just for you... 💌</p>
+      </div>
+    </section>
+    <!-- Interactive Love Letters Section -->
+    <section class="letters-section" id="lettersSection">
+      <h2 class="section-title">Open Your Birthday Letters 💌</h2>
+      <p class="section-subtitle">Click on each envelope to read a special message I wrote for you:</p>
+      <div class="letters-grid">
+        <!-- Letter 1 -->
+        <div class="letter-card" onclick="openLetter(1)">
+          <div class="envelope">
+            <div class="envelope-flap"></div>
+            <div class="envelope-pocket"></div>
+            <div class="seal">❤️</div>
+            <div class="card-preview">
+              <span class="preview-text">Letter #1</span>
+            </div>
+          </div>
+          <p class="letter-label">When We First Met ✨</p>
+        </div>
+        <!-- Letter 2 -->
+        <div class="letter-card" onclick="openLetter(2)">
+          <div class="envelope">
+            <div class="envelope-flap"></div>
+            <div class="envelope-pocket"></div>
+            <div class="seal">🌟</div>
+            <div class="card-preview">
+              <span class="preview-text">Letter #2</span>
+            </div>
+          </div>
+          <p class="letter-label">Why You're My Favorite 🧸</p>
+        </div>
+         <!-- Letter 3 -->
+        <div class="letter-card" onclick="openLetter(3)">
+          <div class="envelope">
+            <div class="envelope-flap"></div>
+            <div class="envelope-pocket"></div>
+            <div class="seal">🎂</div>
+            <div class="card-preview">
+              <span class="preview-text">Letter #3</span>
+            </div>
+          </div>
+          <p class="letter-label">My Birthday Wish For You 🥂</p>
+        </div>
+        <!-- Letter 4 -->
+        <div class="letter-card" onclick="openLetter(4)">
+          <div class="envelope">
+            <div class="envelope-flap"></div>
+            <div class="envelope-pocket"></div>
+            <div class="seal">💍</div>
+            <div class="card-preview">
+              <span class="preview-text">Letter #4</span>
+            </div>
+          </div>
+          <p class="letter-label">A Little Promise To You 🤞</p>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+      <p>Made with all my heart ❤️ just for your birthday</p>
+      <p class="small-text">Always & Forever yours 💕</p>
+    </footer>
+  </main>
+  <!-- Popup / Modal for Reading the Letters -->
+  <div class="modal-overlay" id="letterModal" onclick="closeLetterOnBackdrop(event)">
+    <div class="modal-content">
+      <button class="modal-close" onclick="closeLetter()" aria-label="Close letter">✕</button>
+      <div class="parchment-letter">
+        <div class="letter-header">
+          <span class="letter-stamp">💌 FOR YOU</span>
+          <h3 id="modalTitle" class="letter-title">Letter Title</h3>
+        </div>
+        <div class="letter-divider"></div>
+        <div id="modalBody" class="letter-body">
+          <!-- Text inserted via JS -->
+        </div>
+        <div class="letter-signature">
+          <p>With endless love,</p>
+          <span class="signature-name">Your Favorite Person ❤️</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+
+    
+    
+  
