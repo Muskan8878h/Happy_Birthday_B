@@ -42,7 +42,7 @@ Happy Birthday, my favorite human(Animal)! Forever yours Bongi. 💕`
 const noTeasePhrases = [
   "Nice try! 😂",
   "Think again! 😜",
-  // "Nope, not allowed! 🙅‍♂️",
+  "Nope, not allowed! 🙅‍♂️",
   "Oops! Too slow! 🏃‍♂️💨",
   "Are you sure? 🥺",
   "Can't click me! 😝",
