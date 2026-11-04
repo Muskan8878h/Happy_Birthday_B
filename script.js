@@ -3,8 +3,12 @@ const lettersData = {
   1: {
     title: "When We First Met ✨",
     content: `My Love,
-Looking back at the day you came into my life, I had no idea you would end up meaning this much to me. 
-Every little conversation, every laugh, and every smile we've shared since then has made my world so much brighter. You walked into my life and quietly made everything so beautiful. 
+Looking back at the day you came into my life, I had no idea you would end up meaning this much to me.
+starting vich jdo apni gll hoi c odo pta ni c tuc ene important ho jao gae mere lai. apa ladai v krde aa but fr toh ik duje nu hi choose krde aa😁. starting vich mile fr mulaquat shuru hoi fr gallan jada honia shuru ho gia fr hun apni gll na hove ta lonley lonley feel hunda bhot hna bonge?
+apa jdo milde aa odo memories bnana nd tenu pta hun v jdo oo memories nu yaad krdi aa ta vadia feel hunda nd kde kde ta koi funny gll yaad aa jae ta kli hassan lag jani aa😅 jive last tym jdo hun zirakpur mile c odo tuc meri copy kiti c🤏 ee vali gll nal v hassi aa jandi aa bonge 
+jdo apa amritsar gae c nd othe apa game khele c nd mai ode vich cheating kiti c nd baad vich jdo video dekhi ta thonu v hassi aai c oo vali moment bhot vadia c 💖. 1st tym jdo ap dera bassi mile c odo bahar ik uncle c nd apa ander bhot slowly slowly hass rhe c but apa nu bhot sari hassi aa rhi c 😂 vo bhi kya din the z🤗
+hor v bhot saria memories aa bonge jo yaad krk bhot khushi hundi aa 🤗💖. I LOVE YOU SO MUCH MERE BONGE  ladai jroor hundi aa but bonge kde v tera bura ni sochya sachi 😕 ladaia ta hundia rhendia solly bonge ...
+Every little conversation, every laugh, and every smile we've shared 🫶  
 Thank you for being the most comforting and special presence in my life. ❤️`
   },
   2: {
@@ -13,23 +17,25 @@ Thank you for being the most comforting and special presence in my life. ❤️`
 There are a million little things about you that I adore:
 • The way you make me laugh even on my worst days.
 • How safe and peaceful I feel when I talk to you.
-• Your kindness, your patience, and your big heart.
-You're not just my boyfriend / special one—you are my safe place, my favorite notification, and my best friend. Never change who you are! 🌟`
+• Your kindness, your patience for ME,
+You're not just my bonga you are my safe place, my favorite notification, and my best friend. Never change who you are! 🌟
+bonge jinia gallan tenu pta tere nal share kitia onia gallan kise v frnd nu ni pta you are the only one with whom i can share all my gall baat`
   },
   3: {
     title: "My Birthday Wish For You 🥂🎂",
-    content: `Happy, Happy Birthday Sweetheart! 🎉
+    content: `Happy, Happy Birthday MERE BONGE! 🎉
 Today, I pray for all your dreams to come true, for endless success in everything you work for, and for pure happiness to surround you always.
-May this year bring you closer to all your goals, give you peace of mind, and lots of reasons to smile. You deserve the best that this universe has to offer. 
+May this year bring you closer to all your goals, jaldi jaldi tuc bhot jada successful hojo and God give you peace of mind koki mai aa n tera dimag khrab krn lai 😁, and lots of reasons to smile. You deserve the best.
 I'm so lucky to celebrate another birthday with you! 🎂❤️`
   },
   4: {
     title: "A Little Promise To You 🤞",
     content: `My promise to you today and always:
 I promise to stand by your side through the highs and the lows.
+I'm always with you agr parents na mnee ta apa ona nu mnava gae but koi v galat step ni chakde 🤗
 I promise to always listen, to cheer you on, and to remind you how amazing you are whenever you doubt yourself.
 And most importantly, I promise to love you a little more with each passing day.
-Happy Birthday, my favorite human! Forever yours. 💕`
+Happy Birthday, my favorite human(Animal)! Forever yours Bongi. 💕`
   }
 };
 // Playful phrases for the escaping "NO" button
